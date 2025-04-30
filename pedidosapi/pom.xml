@@ -29,7 +29,7 @@
 	<properties>
 		<java.version>21</java.version>
 		<sonar.organization>virtualcoffeeorg</sonar.organization>
-  		<sonar.projectKey>virtualcoffeeorg_pedidosapi-repository</sonar.projectKey>
+  		<sonar.projectKey>virtualcoffeeorg_pedidosapi</sonar.projectKey>
   		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 	<dependencies>
