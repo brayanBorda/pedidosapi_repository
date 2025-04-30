@@ -22,7 +22,7 @@ public class OrderService {
         this.beverageClient = beverageClient;
     }
 
-    //añadir
+    //añadir a
     public Order addOrder(Order order) {
         // Validamos si la bebida existe
         if (!beverageClient.isBeverageAvailable(order.getName())) {
