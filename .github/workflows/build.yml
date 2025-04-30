@@ -34,4 +34,4 @@ jobs:
         working-directory: pedidosapi
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=virtualcoffeeorg_pedidosapi-repository
+        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=virtualcoffeeorg_pedidosapi-repository -Dsonar.coverage.jacoco.xmlReportPaths=target/jacoco-report/jacoco.xml
